@@ -2,9 +2,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar'
 import './App.css';
 import Home from './pages/Home';
-import InSight from './components/InSight';
 import About from './components/About';
 import UpComing from './components/UpComing';
+import OurGoal from './components/OurGoal';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes >
         <Route path='/' element={<Home />} />
-        <Route path='/insight' element={<InSight />} />
+        <Route path='/ourgoal' element={<OurGoal />} />
         <Route path='/about' element={<About />} />
         <Route path='/upcoming' element={<UpComing />} />
       </Routes>

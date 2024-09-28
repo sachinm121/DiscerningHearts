@@ -10,10 +10,11 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Link from '@mui/material/Link'; // Import Link component
+import logo from '../data/logo.png'
 
 const pages = [
   { name: 'Home', link: '/' },
-  { name: 'InSight', link: '/insight' },
+  { name: 'OurGaol', link: '/ourgoal' },
   { name: 'About', link: '/about' },
   { name: 'UpComing', link: '/upcoming' },
 ];
@@ -31,7 +32,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#123456' }}>
+    <AppBar position="static" sx={{ backgroundColor: '#000' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -49,7 +50,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img className='h-12' src={`${logo}`} alt="" />
           </Typography>
 
           {/* Mobile Menu */}
@@ -89,12 +90,13 @@ function ResponsiveAppBar() {
                       border: '2px solid white',
                       padding: '10px 20px',
                       borderRadius: '8px',
-                      backgroundColor: '#123456',
+                      backgroundColor: '#000',
                       color: 'white',
                       textAlign: 'center',
                       display: 'block',
                       '&:hover': {
-                        backgroundColor: '#345678', // Darker shade on hover
+                        backgroundColor: '#111', // Darker shade on hover
+                        color: 'black'
                       },
                     }}
                   >
@@ -135,13 +137,15 @@ function ResponsiveAppBar() {
                   color: 'white',
                   display: 'block',
                   mx: 2,
-                  backgroundColor: '#123456',
+                  backgroundColor: '#000',
                   fontWeight: 'bold',
                   border: '2px solid white',
                   padding: '10px 20px',
                   borderRadius: '25px',
                   '&:hover': {
-                    backgroundColor: '#345678', // Darker shade on hover
+                    backgroundColor: 'white', // Darker shade on hover
+                    color: 'black',
+                    font: 'bold'
                   },
                 }}
               >
