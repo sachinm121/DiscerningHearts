@@ -9,7 +9,6 @@ import OurGoal from './components/OurGoal';
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/ourgoal' element={<OurGoal />} />

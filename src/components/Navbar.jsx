@@ -10,13 +10,14 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Link from '@mui/material/Link'; // Import Link component
-import logo from '../data/logo.png'
+import logo from '../data/logo.png';
+import { HashLink } from 'react-router-hash-link';
 
 const pages = [
   { name: 'Home', link: '/' },
-  { name: 'OurGaol', link: '/ourgoal' },
+  { name: 'Goals', link: '/#ourgoal' },
+  { name: 'UpComing', link: '/#upcoming' },
   { name: 'About', link: '/about' },
-  { name: 'UpComing', link: '/upcoming' },
 ];
 
 function ResponsiveAppBar() {
@@ -123,12 +124,13 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img className='h-10' src={`${logo}`} alt="" />
           </Typography>
 
           {/* Desktop Menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              <HashLink smooth to={page.link}>
               <Button
                 key={page.name}
                 href={page.link}
@@ -151,6 +153,7 @@ function ResponsiveAppBar() {
               >
                 {page.name}
               </Button>
+              </HashLink>
             ))}
           </Box>
         </Toolbar>
