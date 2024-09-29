@@ -46,6 +46,8 @@ import React from "react";
 import image from "../data/welcome.jpg";
 import { Link } from "react-router-dom";
 import logo from "../data/logo.png";
+import { HashLink } from 'react-router-hash-link';
+import { Button } from "@mui/material";
 
 const Welcome = () => {
   return (
@@ -84,9 +86,13 @@ const Welcome = () => {
         </p>
 
         {/* Button */}
-        <Link className="border border-white border-3 bg-black text-white inline-flex items-center justify-center p-2 sm:p-3 w-28 sm:w-36 rounded-md font-bold">
-          Attend Event
-        </Link>
+        <HashLink smooth to={"/#upcoming"} >
+          <Button>
+            <p className="border border-white border-3 bg-black text-white inline-flex items-center justify-center p-2 sm:p-3 w-28 sm:w-36 rounded-md font-bold">
+            Attend Event
+            </p>
+          </Button>
+        </HashLink>
       </div>
     </div>
   );
