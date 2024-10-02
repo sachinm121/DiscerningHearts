@@ -68,7 +68,7 @@ const ContactUs = () => {
           </div>
           <div className="flex gap-3 sm:gap-4 text-lg sm:text-[30px] items-center">
             <MailIcon fontSize="large" style={{ color: 'gold' }} />
-            <a href="mailto:sachinmahor685@gmail.com">sachinmahor685@gmail.com</a>
+            <a href="heartsdiscerning@gmail.com">heartsdiscerning@gmail.com</a>
           </div>
         </div>
 
