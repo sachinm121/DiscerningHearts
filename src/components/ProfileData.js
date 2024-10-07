@@ -8,7 +8,7 @@ const ProfileData = [
   },
   {
     image:
-      "https://discerninghearts.my.canva.site/dh-about/images/2d7f23c5a79db79f360c1fe535044fd6.png",
+      "https://discerninghearts.my.canva.site/dh-about/media/f51bca5d9dc239c59cc7f1a2f06f264b.jpg",
     name: "Sachin Mahor",
     introduction: "I have a strong enthusiasm for sharing my expertise in ​computer science. I originate from Agra, Uttar Pradesh. I ​completed my Bachelor of Computer Applications (BCA) at Raja ​Balawant Singh College, Khandari, Agra, and my Master of ​Computer Applications (MCA) from NIT Jamshedpur, ​Jharkhand. I began my career as a senior executive at Girnar ​Soft Pvt Ltd, Jaipur, and am currently working as an Embedded ​ML Engineer at DeepEdge AI India Pvt. Ltd., Hyderabad. I am ​fond of learning technology and creating real-world projects ​that can be transformed into products. I actively explore ​emerging technologies such as Generative AI, Blockchain ​Technology, Big Data, and Data Science.",
     linked : "https://www.linkedin.com/in/sachin-mahor-769a33222/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
