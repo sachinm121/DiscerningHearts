@@ -29,7 +29,7 @@ const ProfileData1 = [
   },
   {
     image:
-      "https://discerninghearts.my.canva.site/dh-about/images/e9fb6e420da4ac579ed917e78c7759db.png",
+      "https://discerninghearts.my.canva.site/dh-about/media/f51bca5d9dc239c59cc7f1a2f06f264b.jpg",
     name: "Kavita Dwivedi",
     introduction: "My name is Kavita Dwivedi and I am currently pursuing MSc in ​Mathematics from Agra college of Dr.Bhim Rao Ambedkar University ​where I also completed my graduation in 2022. Coming from a ​middle-class background, I have always embraced the opportunity ​to explore various fields, which has shaped me into a versatile and ​adaptive learner. While my academic journey has been rooted in ​mathematics, my curiosity has led me to gain knowledge and ​experience beyond a single domain. Teaching is another passion of ​mine, as it allows me to connect with students and share the insights ​I have gained throughout my diverse experiences. I believe that ​continuous learning and helping others to grow are key to personal ​development. I am always excited about new challenges and look ​forward to contributing meaningfully to whichever field I ​step into next.",
     linked : ""
