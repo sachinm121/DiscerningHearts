@@ -1,4 +1,4 @@
-const ProfileData = [
+const ProfileData1 = [
   {
     image:
       "https://discerninghearts.my.canva.site/dh-about/images/4d6ec93c9c4c7b5f8cab4fe740df080c.png",
@@ -37,4 +37,4 @@ const ProfileData = [
   
 ];
 
-export default ProfileData;
+export default ProfileData1;
